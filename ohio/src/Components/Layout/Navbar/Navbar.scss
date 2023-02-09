@@ -62,6 +62,7 @@
       #elements {
         position: relative;
         .list-hover {
+          background-color: white;
           padding: 16px 15px;
           border-radius: 19px;
           box-shadow: rgba(0, 0, 0, 0.05) -4px 9px 25px -6px;
@@ -350,6 +351,8 @@
           }
         }
         #hover_about {
+          z-index: 999;
+          background-color: white;
           position: relative;
           ul {
             opacity: 0;
@@ -425,4 +428,7 @@ li {
       color: inherit;
     }
   }
+}
+.list-hover {
+  background-color: white;
 }
