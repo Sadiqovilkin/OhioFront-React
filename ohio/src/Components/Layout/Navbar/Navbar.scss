@@ -1,4 +1,9 @@
 #nav {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  z-index: 9999;
   box-sizing: border-box;
   .left_side {
     display: flex;
@@ -431,4 +436,5 @@ li {
 }
 .list-hover {
   background-color: white;
+  z-index: 9999;
 }
