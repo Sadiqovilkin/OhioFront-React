@@ -1,0 +1,67 @@
+#product {
+  .product_img {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+    img {
+      transition: 0.5s ease-in-out;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .product_txt {
+      color: white;
+      position: absolute;
+      bottom: 2px;
+      left: 48px;
+      p {
+        margin: 5px 0;
+        font-weight: 550;
+      }
+      h4 {
+        font-weight: 550;
+      }
+      #hover_txt {
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+      }
+      #txt {
+        transition: 0.3s ease-in-out;
+      }
+    }
+    &:hover {
+      #txt {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      #hover_txt {
+        transform: translateY(-30px);
+        opacity: 1;
+      }
+    }
+    #play_img {
+      position: absolute;
+      object-fit: cover;
+      width: 58px;
+      height: 59px;
+      top: 48%;
+      left: 45%;
+      cursor: pointer;
+    }
+    svg {
+      position: absolute;
+      top: 18px;
+      left: 17px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+    &:hover {
+      img {
+        transform: scale(1.06);
+      }
+    }
+  }
+}
