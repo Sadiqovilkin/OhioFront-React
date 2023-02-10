@@ -1,10 +1,13 @@
 import React from "react";
 import Cart from "./Carts/Cart";
 import Creators from "./Creators/Creators";
+import Experience from "./Experience/Experience";
 import Ideas from "./Ideas/Ideas";
 import Product from "./ProductImg/Product";
-import Project from "./Projects/Project";
+
 import Tecnology from "./Tecnology/Tecnology";
+import Award from "./Award/Award";
+import Project from "./Project/Project";
 
 const Home = () => {
   return (
@@ -14,6 +17,8 @@ const Home = () => {
       <Product />
       <Tecnology />
       <Cart />
+      <Experience />
+      <Award />
       <Project />
     </main>
   );
