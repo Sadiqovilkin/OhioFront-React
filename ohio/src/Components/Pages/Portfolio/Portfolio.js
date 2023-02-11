@@ -1,7 +1,12 @@
 import React from "react";
+import SearchCard from "./SearchCard/SearchCard";
 
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return (
+    <main>
+      <SearchCard />
+    </main>
+  );
 };
 
 export default Portfolio;
