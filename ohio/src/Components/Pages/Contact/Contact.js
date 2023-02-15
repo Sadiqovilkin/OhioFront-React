@@ -1,7 +1,16 @@
 import React from "react";
+import Agency from "./Agency/Agency";
+import Forms from "./Forms/Forms";
+import Map from "./Map/map";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <main>
+      <Agency />
+      <Forms />
+      <Map />
+    </main>
+  );
 };
 
 export default Contact;
