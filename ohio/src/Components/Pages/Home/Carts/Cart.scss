@@ -1,0 +1,17 @@
+#minicarts {
+  // display: none;
+  .carts {
+    img {
+      margin: 20px 0;
+      width: 130px;
+      height: 55px;
+      object-fit: contain;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.06);
+      }
+    }
+  }
+}

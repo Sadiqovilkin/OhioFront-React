@@ -1,0 +1,91 @@
+// .drkmd{
+//     background-color: black;
+//     color: white !important;
+// }
+// .darkmode {
+//     position: fixed;
+//     top: 40%;
+//     left: -20px;
+//     width: 8%;
+//     display: flex;
+//     border-radius: 15px;
+//     overflow: hidden;
+//     border: 1px solid #635d6f;
+//     transform: rotateZ(-90deg);
+//     button{
+//       margin: 0;
+//       padding: 0;
+//       font-size: 0.7em;
+//       font-weight: 500;
+//       padding: 2px 0.65rem;
+//     }
+//     .black {
+//       width: 50%;
+//       color: white;
+//       background-color: #635d6f;
+//     }
+//     .white {
+//       width: 50%;
+//       color: #635d6f;
+//     }
+//   }
+#darkMode {
+  position: fixed;
+  top: 60px;
+  left: 50px;
+  background: transparent
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEX///8AAAD6+vrz8/P39/fs7Ozw8PDX19fn5+f5+fnR0dGwsLC4uLjBwcHf398WFhaLi4suLi6cnJyBgYHj4+N3d3eSkpKoqKgzMzNRUVFpaWlERETJyclubm4dHR1dXV0ODg48PDxgYGAlJSWgoKBVVVUvLy84ODhsbGx9fX1BQUEZGRmOjo7/UT7+AAAG/ElEQVR4nO2dC3aqMBCGb0QBERBBRRQVRWut3f/6rs9WLUIeE8Nw8i2gZ/4C807890+j0Wg0Go1Go9FoNBqNRvOSlmoDpNMbu36zVRrfGTlMtlHsmI0V6k3Imdk+TjuqjZGDPydXFl/TzbCRjzLok1+SntVWbRA8PXJPPu0173W1vsgjS9dUbRMw/ow8a4y7qo2Cpb19lkgG4VC1VaB0Rn8kksPYUW0WJN3lX4kkD5rkdIyCp3jUGDfI55jrIolk6ak2DA6j6EU9aWzO5+g/x8Ur2bgxydwwK5bYoMfoLV5IJHFT0tXNK4Vkaqu2DYjCmHFm4Tbja+z8SVF/Gas2DgZn8FriqBkpzutP8VggNyIb7xbnNhdmqWrzILAmJRKznmrzIIhLFDZEYlImkWxUmwdAWqqQNOAptqJyiQ14inZeLjFWbaA443KFGX6JnbKI0YxvMaxQuEBfMdolGfiZla/aRFGqHiJJsNfEnSqFZI+98R9USsReLzr9SomuahvFaM8rFQ6Ql4u9SoVkhLt10z5US0Se21S/pqSPOypWFFFnpoZqK0Uwq/KaE6FqK0WoKhMvoH5PXRqFU8z+1C7pDv/QRz1CfTEzfWSLOQWvLDDOYA6KNPHiWCoijhidV0PhRxAXGa3y3vCNHHEGXtFzuxGptpMfivriRB/vl+hVl8Fn8LrT0knbHQnaPYYOnashBG9iM6VUmKDNTveUCgnaHjhluCBkrtpSXkon3vfssEZ9j1Yh2mmURa0Qa2fRp1a4QBoSh9QKseY1Nr3CpWpb+WBQiPQ1rR4jYn9NWRRGKL0pw1tKEpTrpwy+FOmYhj4eEqRpDX1Oc2Sk2loe6DqmVz5UW8sDfeZ9AuNBN8pm2xWMvQy6ycUNjM1vqiHpD3vV5nJQdjThL2t8nWHqbuIFhG1T2o7wlQ9LtcHMpBRbQ3dk+I7UsAULjOGi7JhXEfhKxNcHLosJVBvMilFx7uIP6DrfDqNAMlVtMSusnyHZqraYFaqNoXtmqi1mpLtiVbhD1ozy6NZp7hgg2wBjK51O5LhSb4OtsDjRx9VQZOpCXchwFRfVp2aQP8MWa0JzZIGqF8XUSMSosMWadZ9A5UuHKw6FH5giPtWi/jOYsjb2jO3EWrXZDHA9QkyzGYOtjXgDUdPbZU66z+CZIBZc90kFnl4b21DtB0T9Ur6vkAzQ9Lypdy6fmGEpLewdp0I0syeKA8DFYDlZwlH5XkFy+VCHM1IcQeJoeN3MERydNovyIFABK9W2U8E4134Ah6PhaD/9gOKuE4GPkCwwHLnwX14kTMESQRvKFvgIcRSHtCfVCsnqXzq1vkUEkrz+fTbqc2rF1H+GL+JGT9Q+VogKnNTdk7oiceJE3RMazt7aL3W/xIV9nv1MUuvyviUusN73RRlsq87F1LkH1eYZFD7DO7BoOfKrZofmzrIq+tzH8Tefsi8JFXaiZ+bcZvqTROplBcW/8sSOgJFHL9eTl9E6QtXSLyIriacznHtZtXNMcx8bDULR/tw36cnI+VKgB0jIVMgf+uf/8xK812oL1kr3CFYVlz3dLAINqe0ex8LTK0QXg7vXQdAkhNsZ89i3DksQ9vY/WxG7Dczn6K5BYuAN8RMI3d/+UB4Lu1XT5R+8FAIxFU3vJgmrQMjnGC7zcnoVIOsXj25v5nH+10wnAn09z8BsQRmrx7/6FXjsEcgaA7+eZw5AYSz9M/H6GHn0v4feMv1wyz80KwOsz10UnvPRxqNwPO10swcMfo/MwKq7dvF2RH+33LvWyxhiWm74mYg20UpYAKZaTpmdeRJtXC9NHcv3h77lpJ7n9sZTqLz6JRloE7j6kFV2yAeT1WoyyA/wLrMQ4MPp1Pf7vQ3oBqIJVuwAMQDvPli8u1iSkLBLyrkSKQkpR35Fx0OQ7OX0OZlPrUpjLqs9VheHupV2ggukAy+OPIFHiULrEkDIvY3VBG2xcLGSfGewofpbnEm/eI7ix7RkkrzhZr2uyP6gKO/5+aOu2PKSCPN37ZTE0qr2cqL3/eZhKr28LSB76/ah9f5iavHmlRmo8S0107evW7RZr6kSI1SxEuTL6PEWM1O01GUCjjlLWatbUvcgtmGqmMQqD8N0x7JDYxapvs7DAh+YPfDl1GB/25UXGwcSt3lY6IBtxjwR1OeKbiOE76ZOonod8xmGsC5n8F2f53fDjuGeYx7UdCXWm4OMnbZAey0yaDuB8Dh77dRX3wUn4k90JvMeisO8thexXXF8oT9y/fcV8aK0rXi9YnhhP5IoVZ2dsWN7m4BmUWH3Gbp+PXIXDgw7jUfJZNEvcLLZIZ9Nj+JMFJ9eFablxmH4HUT70WgfRUEYu56F56NjoNXqto6oNkOj0Wg0Go1Go9FoNBqNpp78Bys6aHA9siIgAAAAAElFTkSuQmCC")
+    no-repeat center;
+  background-size: 30px 30px;
+  width: 45px;
+  height: 45px;
+  filter: grayscale(100%);
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  background-color: #161519;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  filter: none !important;
+  background-color: #161519;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light {
+}
+
+body.dark {
+  background-color: #161519;
+  color: white !important;
+  .menu-all {
+    svg {
+      color: #161519;
+    }
+  }
+  .awards_left {
+    color: white !important;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+}
+
+p {
+  width: 40%;
+  margin: 1rem auto;
+  line-height: 1.6;
+}

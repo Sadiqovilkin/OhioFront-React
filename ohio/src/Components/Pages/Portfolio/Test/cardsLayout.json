@@ -1,0 +1,87 @@
+[
+  {
+    "id": "a",
+    "content": "Application & Data Consulting and Implementation Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "b",
+    "content": "Content Delivery Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "c",
+    "content": "Cloud and Hosting Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "d",
+    "content": "Cloud Consulting & Implementation Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "e",
+    "content": "Tailored Application & Infrastructure Management",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "f",
+    "content": "Contact Center Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "g",
+    "content": "Internet Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "competitive"]
+  },
+  {
+    "id": "h",
+    "content": "Managed Wi-Fi",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "i",
+    "content": "Edge Compute",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "j",
+    "content": "SD-WAN(Meraki)",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "k",
+    "content": "Tailored Application & Infrastructure Management",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "l",
+    "content": "Application & Data Consulting and Implementation Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "m",
+    "row": 5,
+    "content": "SAP Consulting Services",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  },
+  {
+    "id": "n",
+    "content": "CPE",
+    "placeholder": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias",
+    "filter": ["technology", "financial", "management-operational"]
+  }
+]
