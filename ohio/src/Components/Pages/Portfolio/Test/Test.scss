@@ -1,0 +1,26 @@
+body {
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.filter-container {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.filter {
+  margin: 0 1em;
+}
+
+.card {
+  /* height: 100%; */
+}
