@@ -1,0 +1,50 @@
+#project {
+  background-color: #111013;
+  padding: 40px 0;
+  margin: 65px 0;
+
+  .left_side {
+    span {
+      font-size: 15px;
+      font-weight: 600;
+      color: rgb(210, 210, 210);
+    }
+    h3 {
+      font-size: 45px;
+      color: white;
+      margin: 10px 0;
+    }
+  }
+
+  .right_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      width: 80%;
+      transition: 0.3s ease-in-out;
+      color: white;
+      padding: 12px 15px;
+      display: flex;
+      align-items: center;
+      background-color: #d90a2c;
+      list-style: none;
+      cursor: pointer;
+      border-radius: 10px;
+      gap: 4px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: rgb(32, 32, 32);
+      }
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    width: 70%;
+    position: relative;
+    color: white;
+  }
+}

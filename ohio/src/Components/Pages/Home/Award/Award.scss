@@ -1,0 +1,60 @@
+#awards {
+  .container {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-family: "DM Sans", sans-serif;
+  }
+}
+
+#awards {
+  .awards_left {
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #161519;
+    &::before {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background-color: rgba(99, 93, 111, 0.65);
+      width: 100%;
+      height: 1px;
+      content: "";
+    }
+    h1 {
+      font-size: calc(2rem + 0.25 * ((100vw - 576px) / 864));
+      max-width: 234px;
+    }
+  }
+
+  .awards_right {
+    // @extend %d-flex;
+    p {
+      font-size: 1rem;
+      color: #161519;
+      line-height: 1.6;
+      margin-bottom: 6vh;
+    }
+
+    .award_day {
+      width: calc(100% / 3);
+      display: inline-block;
+      .img {
+        img {
+          object-fit: contain;
+          object-position: center;
+          cursor: pointer;
+          width: 163px;
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        font-size: 0.95em;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  { "label": "all", "isChecked": true },
+  { "label": "financial", "isChecked": false },
+  { "label": "technology", "isChecked": false },
+  { "label": "competitive", "isChecked": false },
+  { "label": "regulatory", "isChecked": false },
+  { "label": "management-operational", "isChecked": false },
+  { "label": "supply-chain", "isChecked": false }
+]
